@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "techy.aravind | Linktree Clone",
-  description: "A tech professional's Linktree page",
+  title: "techy.aravind | Linktree ",
+  description: "@techy.aravind Linktree page",
 };
 
 export default function RootLayout({
