@@ -5,11 +5,18 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { SocialIcon } from "@/components/ui/social-icon";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { Github, Linkedin, Instagram, Twitter, Mail, Globe, Code, Monitor, Cpu, Sparkles, Heart, Book } from "lucide-react";
+import { Github, Linkedin, Instagram, Twitter, Mail, Globe, Code, Monitor, Cpu, Sparkles, Heart, Book, GraduationCap } from "lucide-react";
 
 export default function Home() {
   const links = [
     {
+      id:"examside",
+      title:"ExamSide",
+      url:"https://questions.examside.com/",
+      icon:<GraduationCap className="h-5 w-5 mr-2"/>,
+      delay:"delay-100"
+    }
+    ,{
       id: "lovable",
       title: "Lovable.dev",
       url: "https://lovable.dev/",
