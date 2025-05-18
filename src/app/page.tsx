@@ -12,7 +12,7 @@ export default function Home() {
     {
       id: "promptperfect",
       title: "Prompt Perfect (Chrome Extension)",
-      url: "https://chrome.google.com/webstore/detail/prompt-perfect/ljdobmomdgdljniojadhoplhkpialdid",
+      url: "https://chromewebstore.google.com/detail/prompt-perfect-ai-prompt/kigfbkddbfgbdbdekajodpggpkpfdjfp",
       icon: <Monitor className="h-5 w-5 mr-2" />,
       delay: "delay-100"
     },
