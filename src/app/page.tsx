@@ -10,6 +10,13 @@ import { Github, Linkedin, Instagram, Twitter, Mail, Globe, Code, Monitor, Cpu, 
 export default function Home() {
   const links = [
     {
+      id: "ecp",
+      title: "EAMCET College Predictor",
+      url: "https://eamcet-college-predictor-aravind.vercel.app/",
+      icon: <Globe className="h-5 w-5 mr-2" />, 
+      delay: "delay-700"
+    },
+    {
       id: "promptperfect",
       title: "Prompt Perfect (Chrome Extension)",
       url: "https://chromewebstore.google.com/detail/prompt-perfect-ai-prompt/kigfbkddbfgbdbdekajodpggpkpfdjfp",
