@@ -11,7 +11,7 @@ export default function Home() {
   const links = [
     {
       id: "dailydev",
-      title: "daily.dev | The homepage developers deserve",
+      title: "Daily.dev | Tech News",
       url: "https://chromewebstore.google.com/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied?hl=en-US",
       icon: <Globe className="h-5 w-5 mr-2" />,
       delay: "delay-100"
