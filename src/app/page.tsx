@@ -10,6 +10,13 @@ import { Github, Linkedin, Instagram, Twitter, Mail, Globe, Code, Monitor, Cpu, 
 export default function Home() {
   const links = [
     {
+      id: "dailydev",
+      title: "daily.dev | The homepage developers deserve",
+      url: "https://chromewebstore.google.com/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied?hl=en-US",
+      icon: <Globe className="h-5 w-5 mr-2" />,
+      delay: "delay-100"
+    },
+    {
       id: "ecp",
       title: "EAMCET College Predictor",
       url: "https://eamcet-college-predictor-aravind.vercel.app/",
