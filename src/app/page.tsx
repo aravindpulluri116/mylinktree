@@ -10,6 +10,27 @@ import { Github, Linkedin, Instagram, Twitter, Mail, Globe, Code, Monitor, Cpu, 
 export default function Home() {
   const links = [
     {
+      id: "ecp",
+      title: "EAMCET College Predictor",
+      url: "https://eamcet-college-predictor-aravind.vercel.app/",
+      icon: <Globe className="h-5 w-5 mr-2" />, 
+      delay: "delay-700"
+    },
+    {
+      id: "promptperfect",
+      title: "Prompt Perfect (Chrome Extension)",
+      url: "https://chromewebstore.google.com/detail/prompt-perfect-ai-prompt/kigfbkddbfgbdbdekajodpggpkpfdjfp",
+      icon: <Monitor className="h-5 w-5 mr-2" />,
+      delay: "delay-100"
+    },
+     {
+      id: "firebase",
+      title: "Firebase",
+      url: "https://firebase.google.com/?mcp_token=eyJwaWQiOjI2OTI3NDcsInNpZCI6NzAwODY4MTI0LCJheCI6ImQyZWUwY2RjZmM2OGI5MGFhYjI3ODU0MWFlZmVlZWU4IiwidHMiOjE3NDczMjQ5NDQsImV4cCI6MTc0OTc0NDE0NH0.rXtxbbpQcMDtDjjdCCW79F8Ny7PgVI1Q0mo1ZTFhZdE&fbclid=PAQ0xDSwKS72ZleHRuA2FlbQIxMAABp1YJT9QN6vZf6QSgEN6KfEbPeybBLdf2tNWAAOG6sPvtDTw-qgAeWRXQUk10_aem_lmQqSAsftJPbV2KAEB8J0g",
+      icon: <Globe className="h-5 w-5 mr-2" />, 
+      delay: "delay-700"
+    },
+    {
       id:"examside",
       title:"ExamSide",
       url:"https://questions.examside.com/",
@@ -43,8 +64,7 @@ export default function Home() {
       url: "https://mail.google.com/mail/?view=cm&fs=1&to=pulluriaravind@gmail.com",
       icon: <Mail className="h-5 w-5 mr-2" />,
       delay: "delay-700"
-    },
-   ,
+    }
   ];
 
   const socialLinks = [
